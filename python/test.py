@@ -2,7 +2,7 @@
 @Author: Jack
 @Date: 2020-03-31 14:27:11
 @LastEditors: Jack
-@LastEditTime: 2020-04-01 10:00:13
+@LastEditTime: 2020-04-02 13:05:35
 @Description: 
 '''
 
@@ -13,7 +13,6 @@ from matplotlib import pyplot as plt
 
 # 读取灰度图片
 img_gs = cv.imread('rose.jpg', cv.IMREAD_GRAYSCALE)
-
 
 # 显示图片
 def show_img(opencv_img):
